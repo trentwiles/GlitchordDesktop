@@ -11,7 +11,37 @@
   ],
   "author": "Riverside Rocks",
   "license": "ISC",
+  "build": {
+    "appId": "glitchord",
+    "category": "glitchord.chat",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "space_computer.ico"
+    }
+  },
+  "dependencies": {},
   "devDependencies": {
-    "electron": "^9.2.1"
+    "electron": "latest",
+    "electron-builder": "latest"
   }
 }
