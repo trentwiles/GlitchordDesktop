@@ -4,11 +4,14 @@
   "description": "Desktop app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "keywords": [
     "desktop"
   ],
   "author": "Riverside Rocks",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.2.1"
+  }
 }
