@@ -1,0 +1,14 @@
+{
+  "name": "glitchord",
+  "version": "1.0.0",
+  "description": "Desktop app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "desktop"
+  ],
+  "author": "Riverside Rocks",
+  "license": "ISC"
+}
