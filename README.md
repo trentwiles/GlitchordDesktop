@@ -1,3 +1,3 @@
 # Glitchord
 
-Finnaly, Glitchord has a desktop app! Download a copy today.
+~~Finnaly,~~ `Finally` Glitchord has a desktop app! Download a copy today.
